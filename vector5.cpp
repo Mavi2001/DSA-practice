@@ -6,11 +6,13 @@ int printvec(vector<int>&v)
     cout<<"The elements are:\n";
     for(int i=0;i<v.size();i++)
     {
-        cout<<v[i]<<" "<<endl;
+        cout<<v[i]<<" ";
     }
+    cout<<endl;
 }
 int main()
 {
+    cout<<"Enter number of vectors:\n";
     int N;
     cin>>N;
     vector<int> v[N];  //here we have an array of N vectors i.e., the elements of the array are N vectors.
