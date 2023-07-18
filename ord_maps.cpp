@@ -21,7 +21,7 @@ int printmap(map<int,string>&m)
     for(auto &vk : m)    //refernce and not the copy.
     {
         cout<<vk.first<<" "<<vk.second<<endl;
-    }
+    } //if it runs n times then time complexity is O(nlog(n)).
     cout<<endl;
 }
 
@@ -29,7 +29,7 @@ int main()
 {
     //declaration of maps
     map<int, string> m;
-    m[5] = "sf";
+    m[5] = "sf";  //O(log(n)) to insert and log(n) to access
     m[2] = "kj";
     m[7] = "xc";
     m.insert({4,"ikjk"});
