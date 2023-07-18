@@ -40,5 +40,11 @@ int main()
     {
         cout<<value<<" ";
     }
+    cout<<endl;
+
+    for(pair<int,int>&value : vp)
+    {
+        cout<<value.first<<" "<<value.second<<endl;
+    }
     
 }
