@@ -3,8 +3,8 @@ using namespace std;
 
 int maxsum(int arr[][3], int row, int col){
     int sum = 0,maxsum = 0,r;
-    for(int i=0;i<3;i++){
-        for(int j=0;j<3;j++)
+    for(int i=row;i<row;i++){
+        for(int j=col;j<col;j++)
         {
             sum += arr[i][j];
         }
